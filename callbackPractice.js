@@ -45,6 +45,9 @@ first(names, function(firstName){
 
 
   //Code Here for last
+  function last(arr, cb) {
+    cb(arr.pop());
+  }
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 last(names, function(lastName){
