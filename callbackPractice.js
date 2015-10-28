@@ -66,10 +66,13 @@ last(names, function(lastName){
 
 
   //Code Here for multiply
+  function multiply(num1, num2, cb){
+    cb(num1*num2);
+  }
 
 multiply(4, 3, function(answer){
   console.log('The answer is ' + answer); //should console.log 12
-})
+});
 
 
 
@@ -82,6 +85,9 @@ multiply(4, 3, function(answer){
 
 
   //Code Here for contains
+  function contains(arr, arg, cb){
+      cb(arr.indexOf(arg) !== -1);
+  }
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 contains(names, 'Colt', function(result){
