@@ -25,6 +25,11 @@ and what you should write is the sayHi function that makes the code above work,
 
 
   //Code Here for first
+  function first(arr, cb){
+    for(var i = 0; i < 1; i++){
+      cb(arr[i]);
+    }
+  }
   
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
@@ -32,7 +37,7 @@ first(names, function(firstName){
   console.log('The first name in names is ' + firstName)
 });
 
-asdasdf
+
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
 
