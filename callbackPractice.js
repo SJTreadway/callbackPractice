@@ -160,7 +160,6 @@ each(names, function(item, indice){
 
  //code here for getUserById
   function getUserById(arr, id, cb){
-     var answer;
   for(var i = 0; i < arr.length; i++){
       if(arr[i].id === id){
           cb(arr[i]);
