@@ -136,7 +136,6 @@ uniq(names, function(uniqArr){
         pos = arr[i];
         cb(pos, index);
       }
-      
     }
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
