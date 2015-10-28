@@ -159,10 +159,13 @@ each(names, function(item, indice){
 
 
  //code here for getUserById
- function getUserById(obj, id, cb){
-  for(var i in obj){
-    if(id === obj)
-  }
+  function getUserById(arr, id, cb){
+     var answer;
+  for(var i = 0; i < arr.length; i++){
+      if(arr[i].id === id){
+          cb(arr[i]);
+      }
+   }
  }
 
 var users = [
