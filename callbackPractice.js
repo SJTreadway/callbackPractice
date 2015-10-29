@@ -134,12 +134,8 @@ uniq(names, function(uniqArr){
 
     //Code Here for each
     function each(arr, cb){
-      var index;
-      var pos;
       for(var i = 0; i < arr.length; i++){
-        index = i;
-        pos = arr[i];
-        cb(pos, index);
+        cb(arr[i], i);
       }
     }
 
